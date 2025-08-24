@@ -159,6 +159,7 @@ const LOWER_IS_BETTER = new Set([
   "sacks_allowed",
   "touchback_percentage",
 ]);
+
 const DEFENSE_HIGHER_IS_BETTER = new Set([
   "interceptions", // DB의 인터셉션 (높을수록 좋음)
   "sacks"          // DL/LB의 색 (높을수록 좋음)
@@ -480,7 +481,7 @@ export default function StatPosition({data, teams = []}) {
 
     const {key, direction} = currentSort;
 
-    return [...rows].sort((a, b) => {
+   return [...rows].sort((a, b) => {
   // ── "A-B" 문자열(앞 숫자 우선) ──
   if (PAIR_FIRST_DESC.has(key)) {
     const [a1, a2] = parsePair(a[key] ?? "0-0");
@@ -515,6 +516,7 @@ export default function StatPosition({data, teams = []}) {
   const lowBetter = LOWER_IS_BETTER.has(key) ? -1 : 1;
   return base * sign * lowBetter;
 });
+
 
   const rankedPlayers = useMemo(() => {
     if (!sortedPlayers.length || !currentSort)
