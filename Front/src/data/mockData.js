@@ -2610,7 +2610,7 @@ export const mockData = [
   },
   {
     name: "맥스", //20
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "RB",
     division: "1부",
     games: 1,
@@ -2643,7 +2643,7 @@ export const mockData = [
   },
   {
     name: "김민겸", // 26
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "RB",
     division: "1부",
     games: 1,
@@ -2676,7 +2676,7 @@ export const mockData = [
   },
   {
     name: "윤여균", //23
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "RB",
     division: "1부",
     games: 1,
@@ -2709,7 +2709,7 @@ export const mockData = [
   },
   {
     name: "장규호", //44
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "RB",
     division: "1부",
     games: 1,
@@ -2973,7 +2973,7 @@ export const mockData = [
   },
   {
     name: "이수형", //18
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "WR",
     division: "1부",
     games: 1,
@@ -3006,7 +3006,7 @@ export const mockData = [
   },
   {
     name: "김민기", //88
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "WR",
     division: "1부",
     games: 1,
@@ -3089,7 +3089,7 @@ export const mockData = [
   },
   {
     name: "이수형", //18
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "K",
     division: "1부",
     games: 1,
@@ -3108,7 +3108,7 @@ export const mockData = [
   },
   {
     name: "김민기", //88
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "K",
     division: "1부",
     games: 1,
@@ -3146,7 +3146,7 @@ export const mockData = [
   },
   {
     name: "김민기", //88
-    team: "한양 라이온스",
+    team: "한양대 라이온스",
     position: "P",
     division: "1부",
     games: 1,
