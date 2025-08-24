@@ -177,9 +177,9 @@ export const MOCKSTATTEAM = [
     division: "1부",
 
     /* 득점/경기 탭(기본 표시) */
-    points_per_game: 27,
-    total_points: 27,
-    total_touchdowns: 4,
+    points_per_game: 6,
+    total_points: 6,
+    total_touchdowns: 1,
     total_yards: 300,
     yards_per_game: 300,
 
@@ -220,9 +220,9 @@ export const MOCKSTATTEAM = [
     division: "1부",
 
     /* 득점/경기 탭(기본 표시) */
-    points_per_game: 6,
-    total_points: 6,
-    total_touchdowns: 1,
+    points_per_game: 27,
+    total_points: 27,
+    total_touchdowns: 4,
     total_yards: 532,
     yards_per_game: 532,
 
