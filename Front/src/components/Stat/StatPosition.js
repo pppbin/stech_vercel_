@@ -516,7 +516,7 @@ export default function StatPosition({data, teams = []}) {
   const lowBetter = LOWER_IS_BETTER.has(key) ? -1 : 1;
   return base * sign * lowBetter;
 });
-
+  }, [data, league, division, position, currentSort]);
 
   const rankedPlayers = useMemo(() => {
     if (!sortedPlayers.length || !currentSort)
