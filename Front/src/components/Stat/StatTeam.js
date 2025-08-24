@@ -534,8 +534,8 @@ export default function StatTeam({data, teams = []}) {
                         const shown =
                           v % 1 !== 0 || isPct
                             ? isPct
-                              ? `${v.toFixed(1)}`
-                              : v.toFixed(1)
+                              ? `${v}`
+                              : v
                             : v;
                         return (
                           <td key={col.key} className="team-table-cell">

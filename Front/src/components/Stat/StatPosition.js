@@ -530,7 +530,7 @@ export default function StatPosition({data, teams = []}) {
   const fmt = (key, v) => {
     if (typeof v === "number") {
       const isPct = String(key).toLowerCase().includes("percentage");
-      return isPct ? `${v.toFixed(1)}%` : v % 1 !== 0 ? v.toFixed(1) : v;
+      return isPct ? `${v}` : v % 1 !== 0 ? v : v;
     }
     return v ?? "0";
   };
